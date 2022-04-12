@@ -4,7 +4,7 @@
 #
 Name     : pypi-flake8_import_order
 Version  : 0.18.1
-Release  : 26
+Release  : 27
 URL      : https://files.pythonhosted.org/packages/81/47/5f2cea0164e77dd40726d83b4c865c2a701f60b73cb6af7b539cd42aafb4/flake8-import-order-0.18.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/81/47/5f2cea0164e77dd40726d83b4c865c2a701f60b73cb6af7b539cd42aafb4/flake8-import-order-0.18.1.tar.gz
 Summary  : Flake8 and pylama plugin that checks the ordering of import statements.
@@ -14,10 +14,6 @@ Requires: pypi-flake8_import_order-license = %{version}-%{release}
 Requires: pypi-flake8_import_order-python = %{version}-%{release}
 Requires: pypi-flake8_import_order-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: flake8-import-order
-Provides: flake8-import-order-python
-Provides: flake8-import-order-python3
-BuildRequires : pypi(enum34)
 BuildRequires : pypi(pycodestyle)
 BuildRequires : pypi(setuptools)
 
@@ -48,7 +44,6 @@ Summary: python3 components for the pypi-flake8_import_order package.
 Group: Default
 Requires: python3-core
 Provides: pypi(flake8_import_order)
-Requires: pypi(enum34)
 Requires: pypi(pycodestyle)
 Requires: pypi(setuptools)
 
@@ -65,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641436138
+export SOURCE_DATE_EPOCH=1649747209
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
