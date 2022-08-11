@@ -4,7 +4,7 @@
 #
 Name     : pypi-flake8_import_order
 Version  : 0.18.1
-Release  : 31
+Release  : 32
 URL      : https://files.pythonhosted.org/packages/81/47/5f2cea0164e77dd40726d83b4c865c2a701f60b73cb6af7b539cd42aafb4/flake8-import-order-0.18.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/81/47/5f2cea0164e77dd40726d83b4c865c2a701f60b73cb6af7b539cd42aafb4/flake8-import-order-0.18.1.tar.gz
 Summary  : Flake8 and pylama plugin that checks the ordering of import statements.
