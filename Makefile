@@ -1,5 +1,5 @@
 PKG_NAME := pypi-flake8_import_order
-URL = https://files.pythonhosted.org/packages/81/47/5f2cea0164e77dd40726d83b4c865c2a701f60b73cb6af7b539cd42aafb4/flake8-import-order-0.18.1.tar.gz
+URL = https://files.pythonhosted.org/packages/23/55/181d5e1b70ff1c7e1ee1d5e2247dfd53f1168fe706656f57e788aa1df2ab/flake8-import-order-0.18.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
